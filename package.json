@@ -1,15 +1,11 @@
 {
   "name": "bloqueador-frontend",
   "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-
   "dependencies": {
-    "puppeteer": "^21.0.0", // Asegúrate de que la versión de Puppeteer sea la correcta
-    "express": "^4.17.1"
-},
-"scripts": {
-    "postinstall": "puppeteer install"
+    "express": "^4.17.1",
+    "puppeteer": "^21.0.0"
+  }
 }
